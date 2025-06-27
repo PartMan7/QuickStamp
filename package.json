@@ -2,10 +2,19 @@
   "name": "quickstamp",
   "module": "dist/index.js",
   "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "prepack": "bun run build"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "prettier": "^3.6.2",
     "typescript": "^5"
   },
-  "files": ["README.md", "dist"]
+  "files": [
+    "README.md",
+    "dist"
+  ]
 }
