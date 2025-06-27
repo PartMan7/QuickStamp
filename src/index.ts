@@ -50,5 +50,3 @@ export class Stamp {
 }
 
 export const stamp = new Stamp({ autostart: false });
-
-export type DONOTPUSH = 1;
