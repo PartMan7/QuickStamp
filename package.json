@@ -1,0 +1,11 @@
+{
+  "name": "quickstamp",
+  "module": "dist/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.6.2",
+    "typescript": "^5"
+  },
+  "files": ["README.md", "dist"]
+}
